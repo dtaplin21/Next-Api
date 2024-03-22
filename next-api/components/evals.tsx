@@ -86,17 +86,20 @@ export function Evals() {
                 size="icon"
                 variant="ghost"
               >
-                <img
-                  alt="Avatar"
+               <svg>
+                <image
+                
                   className="rounded-full"
                   height="32"
-                  src="/placeholder.svg"
+                  href="/placeholder.svg"
                   style={{
                     aspectRatio: "32/32",
                     objectFit: "cover",
                   }}
                   width="32"
                  />
+                 <desc>Avatar</desc>
+                 </svg>
                 <span className="sr-only">Toggle user menu</span>
               </Button>
             </DropdownMenuTrigger>
