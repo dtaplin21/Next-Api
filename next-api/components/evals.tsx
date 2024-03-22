@@ -10,8 +10,9 @@ import { PopoverTrigger, PopoverContent, Popover } from "@/components/ui/popover
 import { Calendar } from "@/components/ui/calendar"
 import { CardContent, Card, CardTitle, CardDescription, CardHeader } from "@/components/ui/card"
 import { TableCell, TableRow, TableHead, TableBody, Table } from "@/components/ui/table"
+import { JSX, SVGProps } from "react"
 
-export function evals() {
+export function Evals() {
   return (
     <div className="grid min-h-screen w-full lg:grid-cols-[280px_1fr]">
       <div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40">
@@ -95,7 +96,7 @@ export function evals() {
                     objectFit: "cover",
                   }}
                   width="32"
-                />
+                 />
                 <span className="sr-only">Toggle user menu</span>
               </Button>
             </DropdownMenuTrigger>
@@ -306,7 +307,7 @@ export function evals() {
 }
 
 
-function Package2Icon(props) {
+function Package2Icon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -328,7 +329,7 @@ function Package2Icon(props) {
 }
 
 
-function BellIcon(props) {
+function BellIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -349,7 +350,7 @@ function BellIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -370,7 +371,7 @@ function HomeIcon(props) {
 }
 
 
-function ActivityIcon(props) {
+function ActivityIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -390,7 +391,7 @@ function ActivityIcon(props) {
 }
 
 
-function BarChartIcon(props) {
+function BarChartIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -412,7 +413,7 @@ function BarChartIcon(props) {
 }
 
 
-function CalendarClockIcon(props) {
+function CalendarClockIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -437,7 +438,7 @@ function CalendarClockIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -458,7 +459,7 @@ function SearchIcon(props) {
 }
 
 
-function ArrowLeftIcon(props) {
+function ArrowLeftIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -479,7 +480,7 @@ function ArrowLeftIcon(props) {
 }
 
 
-function MoreHorizontalIcon(props) {
+function MoreHorizontalIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
