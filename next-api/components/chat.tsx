@@ -8,7 +8,7 @@ import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, Dropdown
 import { Input } from "@/components/ui/input"
 import { JSX, SVGProps } from "react"
 
-export function chat() {
+export function Chat() {
   return (
     <div key="1" className="grid min-h-screen w-full lg:grid-cols-[280px_1fr]">
       <div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40">
